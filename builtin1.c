@@ -96,10 +96,10 @@ int _myalias(info_t *info)
 	{
 		node = info->alias;
 		while (node)
-OBOBOBOBOBOBOB		{
+		{
 			print_alias(node);
 			node = node->next;
-OBOBOBOBOBOBOB		}
+		}
 		return (0);
 	}
 	for (i = 1; info->argv[i]; i++)
